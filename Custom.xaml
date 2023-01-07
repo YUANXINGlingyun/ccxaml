@@ -1,19 +1,54 @@
-﻿
 <!-- 这是 PCL2 的主页自定义文件。你可以通过修改这个文件来自定义 PCL2 主页：添加文本、打开网页、启动游戏，等等。
      如果你倒腾这个文件把 PCL2 玩炸了，把这个文件直接删除就行了。
      如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新玩意儿…… -->
 
-<local:MyCard Title="游戏启动" Margin="0,0,0,4">
+<local:MyCard Title="游戏服务" Margin="0,0,0,4" Background="#ffffff">
     <StackPanel Margin="25,40,23,15">
-        <local:MyListItem Margin="0,0,0,4" Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="启动客户端" Info="点击启动 君庭阁 1.19 客户端" EventType="启动游戏" EventData="君庭阁1.19" Type="Clickable" />
+        <local:MyListItem Margin="0,0,0,4" Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="一键启动" Info="点击启动 君庭阁 1.19 客户端" EventType="启动游戏" EventData="君庭阁1.19" Type="Clickable" />
+        <local:MyListItem Margin="0,0,0,4" Logo="https://s3.bmp.ovh/imgs/2023/01/07/209baa64a835ecae.png" Title="Java下载" Info="网页中点击 &quot;Windows x64 Installer&quot; 后方的蓝色字体进行下载" EventType="打开网页" EventData="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html" Type="Clickable" />
     </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="帮助" Margin="0,0,0,4" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyListItem Margin="0,0,0,4" EventType="打开帮助" EventData="Help/crash.json" Type="Clickable" />
-    </StackPanel>
+<local:MyCard Title="帮助" Margin="0,0,0,4" CanSwap="True" IsSwaped="True" Background="#ffffff">
+    <TabControl Margin="10,40,10,15">
+    <TabItem Background="{DynamicResource ColorBrush}">
+        <TabItem.Header>
+        新手教程
+        </TabItem.Header>
+        <StackPanel Margin="25,40,23,15">
+        <local:MyListItem Logo="https://s3.bmp.ovh/imgs/2023/01/06/87223d6ff31fd3e4.jpg" Title="换皮肤教程" Info="懂得 /skin 的可以跳过" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1d8411V7Tq/" Type="clickable" />
+        <local:MyListItem Logo="https://s3.bmp.ovh/imgs/2023/01/06/027ef99e81bd9ecd.png" Title="特殊农作物教程" Info="玩过 星露谷物语 的可以跳过" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1wG4y1V7es/" Type="clickable" />
+        <local:MyListItem Logo="https://s3.bmp.ovh/imgs/2023/01/06/f247cdf2d9cb50d9.png" Title="领地功能教程" Info="懂得 /res 的可以跳过" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1ER4y1C7kc/" Type="clickable" />
+        <local:MyListItem Logo="https://s3.bmp.ovh/imgs/2023/01/06/d80584dbfb130220.jpg" Title="新手游玩指南" Info="推荐去看" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1bK41197ja" Type="clickable" />
+        </StackPanel>
+    </TabItem>
+    <TabItem Background="{DynamicResource ColorBrush}">
+        <TabItem.Header>
+        崩端帮助-光影问题
+        </TabItem.Header>
+            <StackPanel Margin="25,40,23,15">
+            <Image HorizontalAlignment="Left" Source="https://s3.bmp.ovh/imgs/2023/01/06/40a003a3d081df8a.png" Width="607px" Height="375px" />
+            <TextBlock Margin="0,0,0,4" Text="如果出现这种情况 可能是以下两种原因" />
+            <TextBlock Margin="0,0,0,4" Text="1. 显卡太旧,没法用光影mod,所以得卸载掉光影mod" />
+            <TextBlock Margin="0,0,0,4" Text="2. 显卡驱动没有更新到最新版,请百度咨询如何更新驱动,更新后在尝试能否进入,如果还是不行,就卸载光影mod吧" />
+            <TextBlock Margin="0,0,0,4" Text="卸载方法 : 打开客户端文件夹--minecraft--versions--君庭阁1,19--mods 然后删除7号mod 即可进入游戏" />
+            </StackPanel>
+    </TabItem>
+        <TabItem Background="{DynamicResource ColorBrush}">
+        <TabItem.Header>
+        其他问题帮助
+        </TabItem.Header>
+            <StackPanel Margin="25,40,23,15">
+            <TextBlock Margin="0,0,0,4" Text="如果不是光影 mod 导致的崩端" />
+            <TextBlock Margin="0,0,0,4" Text="或者出现了其它问题" />
+            <TextBlock Margin="0,0,0,4" Text="解决办法可以在群内询问" />
+            <TextBlock Margin="0,0,0,0" Text="实在解决不了的填表申请 游戏客服 凌云 的帮助吧" />
+            <local:MyListItem Margin="0,0,0,4" Logo="https://gd-assets.jinshujucdn.com/assets/favicon-b4fce37259054ca13c20fa5b19e580e8ae5415a50302cfa7b49a493cc5487f67.ico" Title="点击打开" Info="君庭阁2周目 | 凌云帮助 | 预定表单" EventType="打开网页" EventData="https://jinshuju.net/f/za0kMJ" Type="Clickable" />
+            </StackPanel>
+    </TabItem>
+    </TabControl>
 </local:MyCard> 
+
 
 <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
