@@ -31,7 +31,8 @@
             <TextBlock Margin="0,0,0,4" Text="如果出现这种情况 可能是以下两种原因" />
             <TextBlock Margin="0,0,0,4" Text="1. 显卡太旧,没法用光影mod,所以得卸载掉光影mod" />
             <TextBlock Margin="0,0,0,4" Text="2. 显卡驱动没有更新到最新版,请百度咨询如何更新驱动,更新后在尝试能否进入,如果还是不行,就卸载光影mod吧" />
-            <TextBlock Margin="0,0,0,4" Text="卸载方法 : 打开客户端文件夹--minecraft--versions--君庭阁1,19--mods 然后删除7号mod 即可进入游戏" />
+            <TextBlock Margin="0,0,0,4" HorizontalAlignment="Left" Text="卸载方法 : 打开你的模组文件夹，删除7号模组后即可加入游戏~" />
+            <local:MyButton Margin="0,0,0,4" ColorType="Highlight" HorizontalAlignment="Left" Width="125px" Height="30px" Text="点击复制文件夹位置" EventType="复制文本" EventData="{path}.minecraft\versions\君庭阁1.19\mods\" />   
             </StackPanel>
     </TabItem>
         <TabItem Background="{DynamicResource ColorBrush}">
@@ -49,9 +50,8 @@
     </TabControl>
 </local:MyCard> 
 
+<!-- <local:MyListItem Margin="0,0,0,4" Background="#20ffffff" Logo="pack://application:,,,/images/Blocks/GoldBlock.png" Title="点击刷新" Info="没必要就不要乱戳我，搞不好就加载不出来了~" EventType="刷新主页" Type="Clickable" /> -->
 
-<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
 
 <!--
 <local:MyCard Title="基础教学 1：纯文本">
