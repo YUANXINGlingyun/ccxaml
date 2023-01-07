@@ -2,7 +2,7 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyListItem Margin="0,0,0,4" Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="一键启动" Info="点击启动 君庭阁 1.19 客户端" EventType="启动游戏" EventData="君庭阁1.19" Type="Clickable" />
         <local:MyListItem Margin="0,0,0,4" Logo="https://s3.bmp.ovh/imgs/2023/01/07/209baa64a835ecae.png" Title="Java下载" Info="网页中点击 &quot;Windows x64 Installer&quot; 后方的蓝色字体进行下载" EventType="打开网页" EventData="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html" Type="Clickable" />
-        <local:MyListItem Margin="0,0,0,4" Logo="https://huyaimg.msstatic.com/avatar/1022/7a/2800a523f7609f3017882c22bdbc46_180_135.jpg?1611697815&464751" Title="Java下载" Info="网页中点击 &quot;Windows x64 Installer&quot; 后方的蓝色字体进行下载" EventType="打开网页" EventData="https://www.huya.com/21460951" Type="Clickable" />
+                <local:MyListItem Margin="0,0,0,4" Logo="https://huyaimg.msstatic.com/avatar/1022/7a/2800a523f7609f3017882c22bdbc46_180_135.jpg?" Title="CC直播间" Info="点击打开 虎牙直播" EventType="打开网页" EventData="https://www.huya.com/21460951" Type="Clickable" />
         <local:MyListItem Margin="0,0,0,4" Logo="pack://application:,,,/images/Blocks/GoldBlock.png" Title="刷新主页" Info="没必要就不要乱戳我，搞不好就加载不出来了~" EventType="刷新主页" Type="Clickable" />
     </StackPanel>
 </local:MyCard> 
