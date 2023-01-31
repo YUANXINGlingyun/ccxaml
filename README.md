@@ -19,4 +19,4 @@ PCL2 启动器菜单
 
 1. 新建 Pull Request
 
-你可以直接往 pullrequest 分支上推送来新建PR！
+你可以直接往 main 分支上推送来新建PR！
