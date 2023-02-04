@@ -194,7 +194,7 @@
             <TextBlock Margin="0,0,0,4" Text="或者出现了其它问题" />
             <TextBlock Margin="0,0,0,4" Text="解决办法可以在群内询问" />
             <TextBlock Margin="0,0,0,0" Text="实在解决不了的填表申请 游戏客服 凌云 的帮助吧" />
-            <local:MyListItem Margin="0,0,0,4" Logo="https://s3.bmp.ovh/imgs/2023/01/30/e727dfa44d7f9dfc.jpg" Title="点击打开" Info="君庭阁2周目 | 凌云帮助 | 预定表单" EventType="打开网页" EventData="https://jinshuju.net/f/za0kMJ" Type="Clickable" />
+            <local:MyListItem Margin="0,0,0,4" Logo="https://s3.bmp.ovh/imgs/2023/02/04/2c595583619c6fe1.jpg" Title="点击打开" Info="君庭阁2周目 | 凌云帮助 | 预定表单" EventType="打开网页" EventData="https://jinshuju.net/f/za0kMJ" Type="Clickable" />
             </StackPanel>
     </TabItem>
     </TabControl>
