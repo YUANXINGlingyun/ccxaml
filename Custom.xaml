@@ -226,4 +226,7 @@
     <local:MyHint Margin="0,0,0,4" Text="使用前请先确认是否安装对应模块" />
     <local:MyHint Margin="0,0,0,4" Text="具体事宜可询问作者：CX_lingyun">
     <local:MyListItem EventType="打开帮助" EventData="lyext/download/download.json" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyHint IsWarn="False" Background="#ffffff" Text="作者：CX_lingyun QQ 1913532130" />
