@@ -230,4 +230,16 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint IsWarn="False" Background="#ffffff" Text="作者：CX_lingyun QQ 1913532130" />
+<local:MyCard Title="作者信息" Margin="0,0,0,4" Background="#ffffff" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint IsWarn="False" Background="#ffffff" Text="作者：CX_lingyun QQ 1913532130" />
+        <TextBlock Margin="0,0,0,4" Text="仓库信息：" />
+        <TextBlock Margin="0,0,0,4" Text="地址：https://gitee.com/AlexOng/ccxaml 或 https://github.com/YUANXINGlingyun/ccxaml" />
+        <local:MyTextButton Text="点击打开 Gitee 仓库" EventType="打开网页" EventData="https://gitee.com/AlexOng/ccxaml" />
+        <local:MyTextButton Text="点击打开 Github 仓库" EventType="打开网页" EventData="https://github.com/YUANXINGlingyun/ccxaml" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Image HorizontalAlignment="Left" Margin="0,0,4,0" Source="https://gitee.com/AlexOng/ccxaml/badge/star.svg?theme=dark" />
+            <Image HorizontalAlignment="Left" Margin="0,0,4,0" Source="https://gitee.com/AlexOng/ccxaml/badge/fork.svg?theme=dark" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
