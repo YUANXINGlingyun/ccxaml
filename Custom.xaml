@@ -224,7 +224,7 @@
 <local:MyCard Title="附属模块" Margin="0,0,0,4" Background="#ffffff" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
     <local:MyHint Margin="0,0,0,4" Text="使用前请先确认是否安装对应模块" />
-    <local:MyHint Margin="0,0,0,4" Text="具体事宜可询问作者：CX_lingyun" />
+    <local:MyHint Margin="0,0,0,4" IsWarn="False" Text="具体事宜可询问作者：CX_lingyun" />
     <local:MyListItem EventType="打开帮助" EventData="Help/download.json" />
     </StackPanel>
 </local:MyCard>
