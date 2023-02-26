@@ -235,7 +235,7 @@
         <TextBlock Foreground="#FF0062BF" FontSize="15px" Text="作者：CX_lingyun QQ 1913532130" />
         <TextBlock Margin="0,0,0,4" FontSize="15px" Text="仓库信息：" />
         <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
-        <TextBlock HorizontalAlignment="Left" Margin="0,0,4,4" Text="地址：" /> <local:MyTextButton HorizontalAlignment="Left" Margin="0,0,4,4" Text="https://gitee.com/AlexOng/ccxaml" EventType="打开网页" EventData="https://gitee.com/AlexOng/ccxaml" /> <TextBlock HorizontalAlignment="Left" Margin="0,0,4,4" Text="或" /> <local:MyTextButton HorizontalAlignment="Left" Margin="0,0,4,4" Text="https://github.com/YUANXINGlingyun/ccxaml" EventType="打开网页" EventData="https://github.com/YUANXINGlingyun/ccxaml" />
+        <TextBlock HorizontalAlignment="Left" FontSize="15px" Margin="0,0,4,4" Text="地址：" /> <local:MyButton HorizontalAlignment="Left" Margin="0,0,4,4" Text="https://gitee.com/AlexOng/ccxaml" EventType="打开网页" EventData="https://gitee.com/AlexOng/ccxaml" /> <TextBlock HorizontalAlignment="Left" FontSize="15px"  Margin="0,0,4,4" Text="或" /> <local:MyButton HorizontalAlignment="Left" Margin="0,0,4,4" Text="https://github.com/YUANXINGlingyun/ccxaml" EventType="打开网页" EventData="https://github.com/YUANXINGlingyun/ccxaml" />
         </StackPanel>
     </StackPanel>
 </local:MyCard>
