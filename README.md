@@ -8,6 +8,6 @@
 - Beta 分支：启动器主页菜单/内测分支 小功能添加或内测时更新
 - download-extra 分支：下载插件分支 想要使用快捷下载功能请添加该分支
 
-反馈注意事项：
+反馈（Issues / PullReuests）注意事项：
 
 请务必保证是在 **Github** 仓库反馈的，在 Gitee 仓库反馈不会有任何人来处理！[点击打开反馈页面](https://github.com/YUANXINGlingyun/ccxaml/issues)
