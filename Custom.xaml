@@ -28,6 +28,14 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="Minecraft 新闻" Margin="0,0,0,4" Background="#ffffff" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyListItem HorizontalAlignment="Left" Margin="0,0,4,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Width="600px" Title="📰 新闻主页" Info="由 Light Beacon （最亮的信标）制作与维护，空辰KC帮助维护。"/> 
+            <local:MyButton HorizontalAlignment="Left" Width="600px" Text="每日更新 点击打开" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
 
 <local:MyCard Title="帮助" Margin="0,0,0,4" CanSwap="True" IsSwaped="True" Background="#ffffff">
     <TabControl Margin="10,40,10,15">
@@ -220,15 +228,6 @@
             </StackPanel>
     </TabItem>
     </TabControl>
-</local:MyCard>
-
-<local:MyCard Title="Minecraft 新闻" Margin="0,0,0,4" Background="#ffffff" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <local:MyListItem HorizontalAlignment="Left" Margin="0,0,4,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Width="600px" Title="📰 新闻主页" Info="由 Light Beacon （最亮的信标）制作与维护，空辰KC帮助维护。"/> 
-            <local:MyButton HorizontalAlignment="Left" Width="600px" Text="每日更新 点击打开" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
-        </StackPanel>
-    </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="作者信息" Margin="0,0,0,4" Background="#ffffff" CanSwap="True" IsSwaped="True">
