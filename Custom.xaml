@@ -224,13 +224,6 @@
 
 <local:MyCard Title="Minecraft 新闻" Margin="0,0,0,4" Background="#ffffff" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-     <BeginStoryboard>
-          <Storyboard x:Name="animation1" RepeatBehavior="Forever">
-            <ColorAnimation Storyboard.TargetName="NewsHint" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" From="#FF000000" To="#FF000000" Duration="0:0:0" />
-            <ColorAnimation BeginTime="0:0:5" Storyboard.TargetName="NewsHint" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" From="#FF000000" To="#00000000" Duration="0:0:1" />
-            <ColorAnimation BeginTime="0:0:13" Storyboard.TargetName="NewsHint" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" From="#00000000" To="#FF000000" Duration="0:0:1" />
-            </Storyboard>
-    </BeginStoryboard>
     <TextBlock x:Name="NewsHint" FontWeight="Bold" FontSize="12" VerticalAlignment="Center" Foreground="#FF000000">📰 新闻主页由 Light Beacon （最亮的信标）制作与维护，空辰KC帮助维护。
     <local:MyListItem EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
     </StackPanel>
