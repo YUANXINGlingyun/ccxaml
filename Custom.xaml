@@ -224,8 +224,10 @@
 
 <local:MyCard Title="Minecraft 新闻" Margin="0,0,0,4" Background="#ffffff" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-    <TextBlock x:Name="NewsHint" FontWeight="Bold" FontSize="12" VerticalAlignment="Center" Foreground="#FF000000" Text="📰 新闻主页由 Light Beacon （最亮的信标）制作与维护，空辰KC帮助维护。" />
-    <local:MyListItem EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyListItem HorizontalAlignment="Left" Margin="0,0,4,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Width="600px" Title="📰 新闻主页" Info="由 Light Beacon （最亮的信标）制作与维护，空辰KC帮助维护。"/> 
+            <local:MyButton HorizontalAlignment="Left" Width="600px" Text="点击打开 每日更新" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
+        </StackPanel>
     </StackPanel>
 </local:MyCard>
 
