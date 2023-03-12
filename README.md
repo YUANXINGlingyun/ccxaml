@@ -11,3 +11,4 @@
 反馈（Issues / PullReuests）注意事项：
 
 请务必保证是在 **Github** 仓库反馈的，在 Gitee 仓库反馈不会有任何人来处理！[点击打开反馈页面](https://github.com/YUANXINGlingyun/ccxaml/issues)
+欢迎来反馈!处理完了的 Issue 作者可在游戏中获得200金币!
