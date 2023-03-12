@@ -51,7 +51,8 @@
             <TextBlock Margin="0,6,0,0" Text="服务器已加入反作弊系统" />
             <TextBlock Margin="0,6,0,0" Text="如果你开了挂还抱着侥幸心理想来解封，那么你只会收到来自服主的亲切问候" />
             </StackPanel>  
-        </TabItem>          
+        </TabItem>
+    </TabControl>          
 </local:MyCard>
 
 <local:MyCard Title="帮助" Margin="0,0,0,4" CanSwap="True" IsSwaped="True" Background="#ffffff">
