@@ -15,7 +15,7 @@
             升级通知
             </TabItem.Header>
             <StackPanel Margin="25,40,23,15">
-            <TextBlock Margin="0,6,0,0" FontSize="10px" Text="1.19.3 升级通知" />
+            <TextBlock Margin="0,6,0,0" FontSize="30px" Text="1.19.3 升级通知" />
             <TextBlock Margin="0,6,0,0" Text="服务器开始升级到 Minecraft 1.19.3 版本" />
             <TextBlock Margin="0,6,0,0" Text="关服升级时间：3月9日 - 3月16日" />
             </StackPanel>
@@ -42,7 +42,7 @@
             <TextBlock Margin="0,6,0,0" Text="服主一天很忙,如果没回消息,很容易没注意某个消息.请过会再发一遍消息给服主！" />
             </StackPanel>
         </TabItem>
-        <TabItem Background="{DynamicResource ColorBrush}">
+        <!--TabItem Background="{DynamicResource ColorBrush}">
             <TabItem.Header>
             反作弊
             </TabItem.Header>
@@ -51,7 +51,7 @@
             <TextBlock Margin="0,6,0,0" Text="服务器已加入反作弊系统" />
             <TextBlock Margin="0,6,0,0" Text="如果你开了挂还抱着侥幸心理想来解封，那么你只会收到来自服主的亲切问候" />
             </StackPanel>  
-        </TabItem>
+        </TabItem-->
     </TabControl>          
 </local:MyCard>
 
