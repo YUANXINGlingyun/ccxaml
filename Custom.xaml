@@ -41,7 +41,7 @@
             <TextBlock Margin="0,6,0,0" Text="（3）因个人原因丢失的物品[例如丢进岩浆等]一律不进行补偿 请手动绑定武器" />
             <TextBlock Margin="0,6,0,0" Text="服主一天很忙,如果没回消息,很容易没注意某个消息.请过会再发一遍消息给服主！" />
             </StackPanel>
-        <TabItem>
+        </TabItem>
         <TabItem Background="{DynamicResource ColorBrush}">
             <TabItem.Header>
             反作弊
