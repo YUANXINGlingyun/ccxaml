@@ -41,7 +41,7 @@
             <TextBlock Margin="0,6,0,0" Text="（3）因个人原因丢失的物品[例如丢进岩浆等]一律不进行补偿 请手动绑定武器" />
             <TextBlock Margin="0,6,0,0" Text="服主一天很忙,如果没回消息,很容易没注意某个消息.请过会再发一遍消息给服主！" />
             </StackPanel>
-        <TabItem>
+        </TabItem>
         <TabItem Background="{DynamicResource ColorBrush}">
             <TabItem.Header>
             反作弊
@@ -50,16 +50,8 @@
             <Image HorizontalAlignment="Left" Source="https://s3.bmp.ovh/imgs/2023/03/12/703d5b4ccc5acb51.jpg" Width="585px" Height="412px" />
             <TextBlock Margin="0,6,0,0" Text="服务器已加入反作弊系统" />
             <TextBlock Margin="0,6,0,0" Text="如果你开了挂还抱着侥幸心理想来解封，那么你只会收到来自服主的亲切问候" />
-            </StackPanel>            
-</local:MyCard>
-
-<local:MyCard Title="Minecraft 新闻" Margin="0,0,0,4" Background="#ffffff" CanSwap="True">
-    <StackPanel Margin="25,40,23,15">
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <local:MyListItem HorizontalAlignment="Left" Margin="0,0,4,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Width="600px" Title="📰 新闻主页" Info="由 Light Beacon （最亮的信标）制作与维护，空辰KC帮助维护。"/> 
-            <local:MyButton HorizontalAlignment="Left" Width="600px" Text="每日更新 点击打开" EventType="打开帮助" EventData="https://news.bugjump.net/News.json" />
-        </StackPanel>
-    </StackPanel>
+            </StackPanel>  
+        </TabItem>          
 </local:MyCard>
 
 <local:MyCard Title="帮助" Margin="0,0,0,4" CanSwap="True" IsSwaped="True" Background="#ffffff">
