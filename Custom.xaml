@@ -9,23 +9,48 @@
 </local:MyCard> 
 
 <local:MyCard Title="公告" Margin="0,0,0,4" Background="#ffffff" CanSwap="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,6,0,0" Text="本服IP：mc521.cc" />
-        <TextBlock Margin="0,6,0,0" Text="君庭阁条规 【新人必看】" />
-        <TextBlock Margin="0,6,0,0" Text="1. 本服属于高度自由服务器,在游戏内发生的一些小问题，如以下事件 都属于个人责任 服主不会处理" />
-        <TextBlock Margin="0,6,0,0" Text="【双方因为一些琐事或别的原因引起吵架】" />
-        <TextBlock Margin="0,6,0,0" Text="【未圈地导致家里被熊或被有权限的人熊家】" />
-        <TextBlock Margin="0,6,0,0" Text="【非绑定武器不小心丢失,或者误丢出去被他人捡走】" />
-        <TextBlock Margin="0,6,0,0" Text="【被其他玩家正常击杀,或允许的区域击杀】" />
-        <TextBlock Margin="0,6,0,0" Text="2. 本服不能违反的规则，重则永久封号" />
-        <TextBlock Margin="0,6,0,0" Text="【禁止在安全区内.也就是我创建的领地内,出现杀人情况】" />
-        <TextBlock Margin="0,6,0,0" Text="【禁止在本服宣传他人服务器,或者辱骂氪金的都是傻逼之类的话】" />
-        <TextBlock Margin="0,6,0,0" Text="3.关于丢东西说明（从2022.11.26开始执行）" />
-        <TextBlock Margin="0,6,0,0" Text="（1）因服务器原因卡没物品的,请详细说明卡掉过程,以及卡丢时间,然后向服主反馈" />
-        <TextBlock Margin="0,6,0,0" Text="（2）禁止跟鲨臂一样说什么 [我东西没了 我东西卡掉了] 之类没脑子的话" />
-        <TextBlock Margin="0,6,0,0" Text="（3）因个人原因丢失的物品[例如丢进岩浆等]一律不进行补偿 请手动绑定武器" />
-        <TextBlock Margin="0,6,0,0" Text="服主一天很忙,如果没回消息,很容易没注意某个消息.请过会再发一遍消息给服主！" />
-    </StackPanel>
+    <TabControl Margin="10,40,10,15">
+        <TabItem Background="{DynamicResource ColorBrush}">
+            <TabItem.Header>
+            升级通知
+            </TabItem.Header>
+            <StackPanel Margin="25,40,23,15">
+            <TextBlock Margin="0,6,0,0" FontSize="10px" Text="1.19.3 升级通知" />
+            <TextBlock Margin="0,6,0,0" Text="服务器开始升级到 Minecraft 1.19.3 版本" />
+            <TextBlock Margin="0,6,0,0" Text="关服升级时间：3月9日 - 3月16日" />
+            </StackPanel>
+        </TabItem>
+        <TabItem Background="{DynamicResource ColorBrush}">
+            <TabItem.Header>
+            服务器条规
+            </TabItem.Header>
+            <StackPanel Margin="25,40,23,15">
+            <TextBlock Margin="0,6,0,0" Text="本服IP：mc521.cc" />
+            <TextBlock Margin="0,6,0,0" Text="君庭阁条规 【新人必看】" />
+            <TextBlock Margin="0,6,0,0" Text="1. 本服属于高度自由服务器,在游戏内发生的一些小问题，如以下事件 都属于个人责任 服主不会处理" />
+            <TextBlock Margin="0,6,0,0" Text="【双方因为一些琐事或别的原因引起吵架】" />
+            <TextBlock Margin="0,6,0,0" Text="【未圈地导致家里被熊或被有权限的人熊家】" />
+            <TextBlock Margin="0,6,0,0" Text="【非绑定武器不小心丢失,或者误丢出去被他人捡走】" />
+            <TextBlock Margin="0,6,0,0" Text="【被其他玩家正常击杀,或允许的区域击杀】" />
+            <TextBlock Margin="0,6,0,0" Text="2. 本服不能违反的规则，重则永久封号" />
+            <TextBlock Margin="0,6,0,0" Text="【禁止在安全区内.也就是我创建的领地内,出现杀人情况】" />
+            <TextBlock Margin="0,6,0,0" Text="【禁止在本服宣传他人服务器,或者辱骂氪金的都是傻逼之类的话】" />
+            <TextBlock Margin="0,6,0,0" Text="3.关于丢东西说明（从2022.11.26开始执行）" />
+            <TextBlock Margin="0,6,0,0" Text="（1）因服务器原因卡没物品的,请详细说明卡掉过程,以及卡丢时间,然后向服主反馈" />
+            <TextBlock Margin="0,6,0,0" Text="（2）禁止跟鲨臂一样说什么 [我东西没了 我东西卡掉了] 之类没脑子的话" />
+            <TextBlock Margin="0,6,0,0" Text="（3）因个人原因丢失的物品[例如丢进岩浆等]一律不进行补偿 请手动绑定武器" />
+            <TextBlock Margin="0,6,0,0" Text="服主一天很忙,如果没回消息,很容易没注意某个消息.请过会再发一遍消息给服主！" />
+            </StackPanel>
+        <TabItem>
+        <TabItem Background="{DynamicResource ColorBrush}">
+            <TabItem.Header>
+            反作弊
+            </TabItem.Header>
+            <StackPanel Margin="25,40,23,15">
+            <Image HorizontalAlignment="Left" Source="https://s3.bmp.ovh/imgs/2023/03/12/703d5b4ccc5acb51.jpg" Width="585px" Height="412px" />
+            <TextBlock Margin="0,6,0,0" Text="服务器已加入反作弊系统" />
+            <TextBlock Margin="0,6,0,0" Text="如果你开了挂还抱着侥幸心理想来解封，那么你只会收到来自服主的亲切问候" />
+            </StackPanel>            
 </local:MyCard>
 
 <local:MyCard Title="Minecraft 新闻" Margin="0,0,0,4" Background="#ffffff" CanSwap="True">
